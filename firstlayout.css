@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(women\ emotion.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 30px;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background: #dddada;
+    padding: 10px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.dropdown:focus-within .menu{
+    display:block;
+}
+
+
+.menu li{
+    padding:12px 20px;
+    border-bottom:1px solid #ddd;
+}
+
+.menu li:last-child{
+    border-bottom:none;
+}
+
+.menu li:hover{
+    background:#f0f0f0;
+}
+
+.logo img {
+
+    height: 35px;
+    width: auto;
+    margin-left: 35px;
+    margin-bottom: 25px;
+
+}
+
+.menu a:hover {
+    transition: 0.6s;
+    background-color: transparent;
+    color: black;
+    padding: 15px 50px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 60px;
+    margin-right: 70%;
+}
+
+.main h1 {
+    font-size: 60px;
+    margin-bottom: 0%;
+}
+
+.main h2 {
+    font-size: 35px;
+    color: grey;
+}
+
+.line {
+    border: none;
+    height: 2px;
+    background-color: rgb(46, 42, 42);
+    width: 200px;
+    margin: 20px auto;
+
+}
+
+.text p {
+    margin: 20px 0;
+
+}
+
+.Start {
+    background-color: #b037e8b5;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.Start:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(201, 71, 234, 0.4);
+}
+
+.end {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.imentiv-section {
+    flex: 1;
+    padding: 3rem;
+    background: white;
+    background: linear-gradient(135deg, #d6d8e0 0%, #d297f1 100%);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.imentiv-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.imentiv-section h1::after {
+    content: '';
+    left: 0%;
+    position: absolute;
+    bottom: -10px;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 2px;
+}
+
+.imentiv-section p {
+    font-size: 15px;
+    line-height: 27px;
+    color: #4a5568;
+    margin: 24px 0;
+}
+
+.emotion-section {
+    flex: 1;
+    padding: 48px;
+    background: white;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(135deg, #d6d8e0 0%, #d297f1 100%);
+}
+
+.emotion-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 24px;
+    position: relative;
+    display: inline-block;
+}
+
+.emotion-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 2px;
+}
+
+.emotion-section p {
+    font-size: 15px;
+    line-height: 27px;
+    color: #4a5568;
+    margin: 24px 0;
+}
